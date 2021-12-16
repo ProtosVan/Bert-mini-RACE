@@ -1,0 +1,8 @@
+dataset_path: "./dataset/RACE_BERT_mini"
+pre_trained_model_name: "prajjwal1/bert-mini"
+batch_size: 1
+
+logs_path: "./checkpoints/final_demo"
+model1_path: "./checkpoints/3model/5633model.pth"
+model2_path: "./checkpoints/3model/5499model.pth"
+model3_path: "./checkpoints/3model/5399model.pth"

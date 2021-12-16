@@ -1,0 +1,15 @@
+seed: 1209
+dataset_path: "./dataset/RACE_BERT_mini"
+pre_trained_model_name: "prajjwal1/bert-mini"
+batch_size: 64
+max_epoch: 100
+
+
+logs_path: "./checkpoints/final2-seed1209"
+resume_training: False
+resume_path: "./checkpoints/final2-seed1209"
+
+learning_rate: 0.01
+weight_decay: 3e-4
+lock_para: False
+dropout_rate: 0.1
